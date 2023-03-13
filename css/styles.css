@@ -1,0 +1,138 @@
+body {
+    font-family: Montserrat;
+    text-align: center;
+}
+
+/*text*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    size: 3rem;
+    line-height: 1.5;
+}
+
+.heading-big {
+    padding-bottom: 20px;
+    color: white;
+}
+
+.section-title {
+    padding-top: 5%;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/*containers*/
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.navbar {
+    padding-bottom: 70px;
+}
+
+/*title-section*/
+
+#title .container-fluid {
+    background-color: #ff4c68;
+    padding: 3% 15% 10%;
+    text-align: left;
+}
+
+#iphone {
+    transform: rotate(25deg);
+    max-width: 280px;
+    position: absolute;
+}
+
+.fa-solid {
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+
+.fa-solid:hover {
+    color: #ff4c68;
+}
+
+/*navbar-section*/
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+
+.nav-item {
+    font-weight: 400;
+    padding-left: 50px;
+}
+
+.colored-section {
+    background-color: #ef8172;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+/*features-section*/
+
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+.feature {
+    padding: 5%;
+}
+
+/*testimonals-section*/
+
+#testimonials {
+    color: #ffffff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/*press-section*/
+
+.press-logo {
+    padding-bottom: 7%;
+}
+
+/*pricing-section*/
+
+.pricing-card {
+    padding: 3% 12%;
+}
+
+/*cta-section*/
+
+/*footer-section*/
+
+#copyright {
+    padding-top: 10px;
+}
+
+/*media-query*/
+
+@media (max-width: 991px) {
+
+    #title .container-fluid {
+        text-align: center;
+    }
+
+    #iphone { 
+        transform: rotate(0deg);
+        position: static;
+        padding-top: 20px;
+    }
+    
+}
