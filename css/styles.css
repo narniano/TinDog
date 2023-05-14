@@ -104,7 +104,17 @@ p {
 /*press-section*/
 
 .press-logo {
-    padding-bottom: 7%;
+    padding-bottom: 7%; 
+    overflow: hidden;
+}
+
+.press-logo img {
+    width: 200px;
+}
+
+#twn {
+    height: auto;
+    max-width: 70%;
 }
 
 /*pricing-section*/
